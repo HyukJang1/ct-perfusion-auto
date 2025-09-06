@@ -74,5 +74,37 @@ ct-perfusion-auto/
 
 ---
 
+## ⚠️ Disclaimer
+이 소프트웨어는 **연구 및 교육 목적으로 제공**됩니다.  
+임상 진단이나 치료 의사결정을 대체할 수 없으며, 의료 전문인의 판단을 보조하는 용도로만 사용해야 합니다.  
+분석 결과를 임상에 적용하기 전 반드시 전문가의 검증이 필요합니다.
+
 ## 📜 License
-MIT License © 2025 [Your Name]
+MIT License © 2025 [Hyuk Jang, Asan Medical Center]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+MEDICAL USE DISCLAIMER: The Software is provided for **research and educational
+purposes only** and is **not intended for diagnosis, treatment, or other clinical
+use**. The authors and contributors make no representation that the outputs are
+accurate for medical decision-making. Users are solely responsible for validating
+results and obtaining appropriate regulatory approvals before any clinical use,
+and the authors disclaim all liability arising from any clinical application of
+the Software.
+```
