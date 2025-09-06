@@ -1,0 +1,8 @@
+pydicom
+numpy
+scipy
+simpleitk
+nibabel
+scikit-image
+matplotlib
+tqdm
