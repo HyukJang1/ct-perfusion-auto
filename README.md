@@ -67,14 +67,14 @@ ct-perfusion-auto/
 ```
 
 
-##🧬 Research Reproduction Guide
+## 🧬 Research Reproduction Guide
 
 Validation of a CTP-Derived Corrected CBV Index as a Surrogate of DSA-Based ASITN/SIR Collateral in Anterior Circulation Ischemia
 (Jang et al., 2025, submitted)
 
 ⸻
 
-###🩻 1. Overview
+### 🩻 1. Overview
 
 This open-source pipeline reproduces all perfusion-derived indices used in our study:
 
@@ -91,7 +91,7 @@ All indices are automatically computed using Python scripts, identical to those 
 
 ⸻
 
-###🧠 2. Environment setup
+### 🧠 2. Environment setup
 
 git clone https://github.com/HyukJang1/ct-perfusion-auto.git
 cd ct-perfusion-auto
@@ -102,7 +102,7 @@ Dependencies: numpy, nibabel, pandas, scipy, pillow.
 
 ⸻
 
-###📂 3. Input data structure
+### 📂 3. Input data structure
 
 Prepare the following maps (NIfTI format) and MIP image:
 
@@ -118,7 +118,7 @@ input_case01/
 
 ⸻
 
-###⚙️ 4. Run full auto-analysis (one-shot pipeline)
+### ⚙️ 4. Run full auto-analysis (one-shot pipeline)
 
 python scripts/one_shot_from_mip.py \
   --mip input_case01/MIP_case01.png \
@@ -142,7 +142,7 @@ results_case01/
 
 ⸻
 
-###📊 5. Example result (metrics.json)
+### 📊 5. Example result (metrics.json)
 
 {
   "Corrected_CBV_Index": 0.72,
@@ -159,7 +159,7 @@ results_case01/
 
 ⸻
 
-###🧩 6. Reproducing the Paper Results
+### 🧩 6. Reproducing the Paper Results
 
 To reproduce Table 2–5 and Figures 1–6 from the paper:
 	1.	Generate metrics for each case (N=123 in the original cohort).
@@ -174,7 +174,7 @@ python -m ctperf.utils.aggregate_metrics --input_dir results_all/ --output summa
 
 ⸻
 
-###🔄 7. Notes on Reproducibility
+### 🔄 7. Notes on Reproducibility
 	•	CTP Processing software: Siemens syngo.CT Neuro Perfusion VB40 (consistent with original acquisition).
 	•	Thresholds follow exactly the study definitions:
 	•	Tmax > 6 s for hypoperfusion
@@ -185,7 +185,7 @@ python -m ctperf.utils.aggregate_metrics --input_dir results_all/ --output summa
 
 ⸻
 
-###🧾 8. Citation
+### 🧾 8. Citation
 
 If you use this code or reproduce the analysis, please cite:
 
@@ -201,7 +201,7 @@ https://github.com/HyukJang1/ct-perfusion-auto
 
 ⸻
 
-###🧑‍💻 9. License
+### 🧑‍💻 9. License
 
 MIT License — free for academic and clinical research use.
 For commercial use, please contact the corresponding author (parkoct@catholic.ac.kr).
