@@ -209,6 +209,7 @@ For commercial use, please contact the corresponding author (parkoct@catholic.ac
 -------
 ### 10.  GUI Applications
 Window: https://drive.google.com/file/d/1FbqzhjpfomITy4sU3DBUJndHzGybAyV2/view?usp=drive_link
+
 MAC OS: https://drive.google.com/file/d/1NKntR6uFOv5j_wsJTfJuYs_MRDzft29G/view?usp=drive_link
 
 PC환경에 Python 3.8이상 깔려 있어야 동작합니다
