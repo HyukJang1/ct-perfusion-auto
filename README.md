@@ -219,7 +219,7 @@ PC환경에 Python 3.8이상 깔려 있어야 동작합니다
 ## 🤝 Contributing
 - Issue, Pull Request 환영합니다!
 - 버그 리포트, 기능 제안은 GitHub Issues 사용해주세요.
-
+-  GUI Applications 지속적 개선 중
 ---
 
 ## ⚠️ Disclaimer
