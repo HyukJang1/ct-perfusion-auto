@@ -213,6 +213,8 @@ Window: https://drive.google.com/file/d/1FbqzhjpfomITy4sU3DBUJndHzGybAyV2/view?u
 MAC OS: https://drive.google.com/file/d/1NKntR6uFOv5j_wsJTfJuYs_MRDzft29G/view?usp=drive_link
 
 PC환경에 Python 3.8이상 깔려 있어야 동작합니다
+더 자세한 설명 필요시 다른 개발자분의 링크도 참고해주세요
+https://github.com/JoonHaJang/ct-perfusion-auto
 
 -------
 
